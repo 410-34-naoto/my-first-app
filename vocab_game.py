@@ -1,3 +1,4 @@
+import time
 import streamlit as st
 
 st.title("⏱️ เกมเติมศัพท์จับเวลา")
@@ -124,4 +125,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2, ans3, ans4)
 
 st.divider()
-st.write("นาย นาโอโตะ ทานากะ เลขที่ 34 ม.4/10")
+st.write("นายนาโอโตะ ทานากะ เลขที่ 34 ม.4/10")
